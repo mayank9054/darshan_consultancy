@@ -32,9 +32,20 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lottie:
-  intl_phone_field:
-
+  # otp_text_field: 
+  firebase_core:
+  firebase_auth:
+  hexcolor:
+  google_fonts:
+  flutter_otp_text_field:
+  carousel_slider:
+  firebase_storage: 
+  file_picker:
+  open_file:
+  dio:
+  path_provider:
+  flutter_spinkit:
+  image_picker:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -63,11 +74,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy/Gilroy-Regular.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
